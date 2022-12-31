@@ -1,0 +1,48 @@
+.trending__container{
+    margin: 2rem auto;
+}
+.trending__List{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 2rem;
+
+}
+
+.trending__animeCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    transition: var(--transition);
+}
+
+.trending__animeCard:hover{
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+.trending__animeImg{
+    height: 18rem;
+    width: 100%;
+   
+}
+
+.trending__titleInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.25rem;
+}
+
+.trending__type{
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    box-shadow: 1px 1px 10px black; 
+    margin: 0.5rem 0.5rem;
+    align-self: flex-end;
+}
+
